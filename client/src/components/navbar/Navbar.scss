@@ -1,0 +1,42 @@
+.Navbar {
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    height: 60px;
+    border-bottom: 1px solid var(--border-color);
+
+    .container {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .banner{
+            font-family: 'Exo 2', sans-serif;
+            font-family: 'Itim', cursive;
+            // font-weight: 1200;
+            font-size: 1.8rem;
+            letter-spacing: 2px;
+            .imgg{
+                position: absolute;
+                left: 240px;
+                top:12px;
+                width: 30px;
+                height: 30px;
+            }
+        }
+    }
+
+    .right-side {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+
+        .logout {
+            font-size: 1.8rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
